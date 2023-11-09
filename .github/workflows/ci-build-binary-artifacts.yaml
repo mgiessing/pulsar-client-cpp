@@ -44,6 +44,7 @@ jobs:
         cpu:
           - { arch: 'x86_64', platform: 'x86_64' }
           - { arch: 'aarch64', platform: 'arm64' }
+          - { arch: 'ppc64le', platform: 'ppc64le' }
 
     steps:
       - name: checkout
